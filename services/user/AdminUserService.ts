@@ -1,5 +1,5 @@
-import config from "../../config/index";
-import handleBaseUrlEnvironment from "../../utils/BaseUrlEnv";
+import config from "../../../config/index";
+import handleBaseUrlEnvironment from "../../../utils/BaseUrlEnv";
 import { ServiceAbstract } from "../ServiceAbstract";
 type RequestBody = Record<string, any>;
 

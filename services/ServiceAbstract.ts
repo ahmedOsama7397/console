@@ -1,5 +1,5 @@
 import { RequestMethods, ServiceInterface } from "./ServiceInterface";
-import config from "../config";
+import config from "../../config";
 
 abstract class ServiceAbstract implements ServiceInterface {
   private key: string = "";
